@@ -11,11 +11,13 @@
 <body>
 
     <nav>
-        <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#education">Education</a>
-        <a href="#testimonials">Testimonials</a>
-        <a href="#contact">Contact</a>
+        <ul>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
 
     <header>
@@ -23,6 +25,8 @@
         <img src="" atl="" title=""/>
 
     </header>
+
+    <div id="topbutton"><a href="body"><img src="img/arrow.png" alt="button to top of page" title="button to top of page" /></a></div>
 
     <main>
 
@@ -53,10 +57,10 @@
             <h1>Skills</h1>
 
                 <div id="btns">
-                    <button type="button" id="web_btn">web skills</button>
-                    <button type="button" id="design_btn">design skills</button>
-                    <button type="button" id="editing_btn">editing skills</button>
-                    <button type="button" id="misc_btn">miscellaneous skills</button>
+                    <button type="button" class="btn" data-filter=".web">web skills</button>
+                    <button type="button" class="btn" data-filter=".design">design skills</button>
+                    <button type="button" class="btn" data-filter=".editing">editing skills</button>
+                    <button type="button" class="btn" data-filter=".misc_skills">miscellaneous skills</button>
                 </div>
 
                 <div id=skill_tags>
