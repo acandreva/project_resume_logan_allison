@@ -4,6 +4,9 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial, sans-serif;
+}
 
 /*NAVIGATION*/
 nav {
@@ -54,3 +57,103 @@ header img {
     width: 25%;
 }
 
+
+/*MAIN SECTIONS*/
+main {
+    width: 90%;
+    margin: auto;
+}
+
+article {
+    width: 70%;
+    margin: 10% auto;
+}
+
+h1 {
+    color: #3d7f89;
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.3em;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-weight: normal;
+}
+
+h3 {
+    font-weight: normal;
+    margin-left: 10%;
+}
+
+p {
+    margin-left: 15%;
+}
+
+.info {
+    font-style: italic;
+}
+
+/*EXPERIENCE SECTION*/
+
+
+/*SKILLS SECTION*/
+
+#btns {
+    width: 100%;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #CCC;
+    text-decoration: none;
+    font-size: medium;
+}
+
+#skills_tags {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+#skills_tags .mix{
+    display: none;
+}
+
+#skills_labels {
+    margin-top: 20px;
+}
+
+span {
+    padding: 10px;
+    margin-top: 5px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFF;
+}
+
+.web {
+    background-color: #3d7f89;
+}
+
+.design {
+    background-color: #5ca0b4;
+}
+
+.editing {
+    background-color: #8fd3e7;
+}
+
+.misc_skills {
+    background-color: #57d1a3;
+}
+
+/*.hide {
+    display: none;
+}*/
+
+footer {
+    text-align: center;
+    margin: 10px;
+}
