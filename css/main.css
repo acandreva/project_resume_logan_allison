@@ -74,7 +74,7 @@ h1 {
     font-size: 1.5em;
 }
 
-h2 {
+h2, .subhead1 {
     font-size: 1.3em;
     margin-left: 5%;
     margin-top: 2%;
@@ -97,6 +97,8 @@ p {
 /*EXPERIENCE SECTION*/
 
 
+
+
 /*SKILLS SECTION*/
 
 #btns {
@@ -109,6 +111,11 @@ p {
     background-color: #CCC;
     text-decoration: none;
     font-size: medium;
+}
+
+.btn:focus {
+    outline: none;
+    background-color: #C0D9D9;
 }
 
 #skills_tags {
@@ -149,10 +156,7 @@ span {
     background-color: #57d1a3;
 }
 
-/*.hide {
-    display: none;
-}*/
-
+/*FOOTER*/
 footer {
     text-align: center;
     margin: 10px;

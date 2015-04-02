@@ -6,6 +6,7 @@
     <meta name="description" content="">
 
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bigfoot.css"><!--for footnotes-->
 
 </head>
 <body>
@@ -34,21 +35,37 @@
 
             <h1>Experience</h1>
 
-                <h2>The New York Times Editing Center</h2>
-                    <h3>Gainesville, Fla., May 2010 to present</h3>
-                    <p>Day Shift Copy Editor, Designer &amp; Training Coordinator</p>
+                <div class="bigfoot-project project-wrapper">
 
-                <h2>The University of Florida</h2>
-                    <h3>Gainesville, Fla., August 2011 to December 2011</h3>
-                    <p>Adjunct professor</p>
+                    <p class="subhead1">The New York Times Editing Center <a href="#fn1" id="fn1-return"><sup>1</sup></a></p>
+                    <p class="subhead1">The University of Florida <a href="#fn2" id="fn2-return"><sup>2</sup></a></p>
+                    <p class="subhead1">The Lake City Reporter <a href="#fn3" id="fn3-return"><sup>3</sup></a></p>
+                    <p class="subhead1">The North Florida Herald <a href="#fn4" id="fn4-return"><sup>4</sup></a></p>
+                </div>
 
-                <h2>The Lake City Reporter</h2>
-                    <h3>Lake City, Fla., February 2010 to May 2010</h3>
-                    <p>Copy Editor and Designer</p>
+                <div id="footnotes" class="demo-hide">
+                    <ul>
+                        <li id="fn1">
+                            <p>Gainesville, Fla., May 2010 to present</p>
+                            <p>Day Shift Copy Editor, Designer &amp; Training Coordinator<a href="#fn1-return">back</a></p>
+                        </li>
 
-                <h2>The North Florida Herald</h2>
-                    <h3>High Springs, Fla., August 2009 to December 2009</h3>
-                    <p>Editorial Intern</p>
+                        <li id="fn2">
+                            <p>Gainesville, Fla., August 2011 to December 2011</p>
+                            <p>Adjunct professor<a href="#fn2-return">back</a></p>
+                        </li>
+
+                        <li id="fn3">
+                            <p>Lake City, Fla., February 2010 to May 2010</p>
+                            <p>Copy Editor and Designer<a href="#fn3-return">back</a></p>
+                        </li>
+
+                        <li id="fn4">
+                            <p>High Springs, Fla., August 2009 to December 2009</p>
+                            <p>Editorial Intern<a href="#fn4-return">back</a></p>
+                        </li>
+                    </ul>
+                </div>
 
         </article>
 
@@ -160,6 +177,7 @@
 
     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/bigfoot.min.js"></script>
     <script src="js/main.js"></script>
 
 </body>
