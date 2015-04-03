@@ -14,27 +14,25 @@ body {
 }
 
 
-/*NAVIGATION*/
-nav {
+/*HEADER*/
+#pagehead {
     width: 100%;
     margin: auto;
-    font-size: 18px;
-    background-color: #3d7f89;
-    float: right;
     font-family: Caviar;
+    background-color: #3d7f89;
+    text-align: center;
 }
 
-nav ul {
-    float: right;
-    list-style: none;
+#pagehead h1 {
+    color: #fff;
 }
 
-nav li {
-    float: left;
+/*NAVIGATION*/
+nav {
+    padding: 10px 20px 10px;
 }
 
 nav a {
-    display: block;
     margin-right: 1px;
     padding: 10px 20px 10px;
     text-decoration: none;
@@ -50,19 +48,9 @@ nav a:hover, nav #current {
 
 #topbutton {
     position: fixed;
-    top: 90%;
-    left: 93%;
+    top: 95%;
+    left: 95%;
 }
-
-header {
-    padding-top: 10%;
-    text-align: center;
-}
-
-header img {
-    width: 25%;
-}
-
 
 /*MAIN SECTIONS*/
 main {
@@ -70,7 +58,7 @@ main {
     margin: auto;
 }
 
-article {
+#experience, #skills, #education, #testimonials {
     width: 70%;
     margin: 10% auto;
 }
@@ -99,6 +87,16 @@ p {
 
 .info {
     font-style: italic;
+}
+
+/*ME SECTION*/
+#me {
+    padding-top: 10%;
+    text-align: center;
+}
+
+#me img {
+    width: 25%;
 }
 
 /*EXPERIENCE SECTION*/
