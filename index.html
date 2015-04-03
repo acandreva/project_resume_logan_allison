@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bigfoot.css"><!--for footnotes-->
+    <link rel="stylesheet" href="fancyboxstuff/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" /><!--for fancybox-->
 
 </head>
 <body>
@@ -17,7 +18,7 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a class="fancybox" href="img/contactme.png" alt="contact me" >Contact</a></li>
         </ul>
     </nav>
 
@@ -130,16 +131,6 @@
 
         </article>
 
-        <article id="contact">
-
-            <h1>Contact</h1>
-
-            <p>Phone: 777-777-0918</p>
-
-            <p>Email: ali.cand@yahoo.com</p>
-
-        </article>
-
     </main>
 
     <footer>
@@ -148,7 +139,8 @@
 
     </footer>
 
-<!--FOOTNOTES-->
+
+<!--HIDDEN FOOTNOTES-->
                 <div id="footnotes" class="demo-hide">
                     <ul>
                         <li id="fn1">
@@ -190,6 +182,10 @@
     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="js/jquery.mixitup.min.js"></script>
     <script src="js/bigfoot.min.js"></script>
+    <!--fancybox stuff-->
+   <script type="text/javascript" src="fancyboxstuff/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+   <script type="text/javascript" src="fancyboxstuff/fancybox.js"></script>
+   <!--end fancybox stuff-->
     <script src="js/main.js"></script>
 
 </body>
