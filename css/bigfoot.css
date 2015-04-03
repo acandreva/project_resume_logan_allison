@@ -11,7 +11,7 @@
   border: none;
   border-radius: 0.3em;
   cursor: pointer;
-  background-color: rgba(110, 110, 110, 0.2);
+  background-color: #3d7f89;
   -webkit-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -37,7 +37,7 @@
 }
 
 .bigfoot-footnote__button.is-active {
-  background-color: #6e6e6e;
+  background-color: #C0D9D9;
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }

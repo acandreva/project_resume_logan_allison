@@ -10,7 +10,6 @@ body {
 
 /*NAVIGATION*/
 nav {
-    position: fixed;
     width: 100%;
     margin: auto;
     font-size: 18px;
@@ -97,8 +96,6 @@ p {
 /*EXPERIENCE SECTION*/
 
 
-
-
 /*SKILLS SECTION*/
 
 #btns {
@@ -157,7 +154,10 @@ span {
 }
 
 /*FOOTER*/
+
 footer {
+    background-color: #3d7f89;
+    color: #fff;
+    padding: 2% 0 1%;
     text-align: center;
-    margin: 10px;
 }
