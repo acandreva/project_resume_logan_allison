@@ -18,6 +18,7 @@ body {
 #pagehead {
     width: 100%;
     margin: auto;
+    padding-top: 5px;
     font-family: Caviar;
     background-color: #3d7f89;
     text-align: center;
@@ -30,6 +31,7 @@ body {
 /*NAVIGATION*/
 nav {
     padding: 10px 20px 10px;
+    line-height: 2em;
 }
 
 nav a {
