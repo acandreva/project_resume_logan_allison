@@ -62,7 +62,7 @@ main {
 
 #me, #experience, #skills, #education, #testimonials {
     width: 60%;
-    margin: 10% auto;
+    margin: 0 auto 10%;
     clear: both;
 }
 
@@ -93,6 +93,9 @@ p {
 }
 
 /*ME SECTION*/
+#me {
+    margin-top: 5%;
+}
 
 #me img {
     width: 30%;
@@ -177,4 +180,8 @@ footer {
     text-align: center;
     font-family: Caviar;
     line-height: 2em;
+}
+
+footer p {
+    margin: 0;
 }
