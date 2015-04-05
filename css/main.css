@@ -28,6 +28,7 @@ body {
     color: #fff;
 }
 
+
 /*NAVIGATION*/
 nav {
     padding: 10px 20px 10px;
@@ -49,19 +50,18 @@ nav a:hover, nav #current {
 }
 
 #topbutton {
-    position: fixed;
-    top: 95%;
-    left: 95%;
+    display: none;
 }
+
 
 /*MAIN SECTIONS*/
 main {
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
 #me, #experience, #skills, #education, #testimonials {
-    width: 60%;
+    width: 90%;
     margin: 0 auto 10%;
     clear: both;
 }
@@ -72,10 +72,10 @@ h1 {
     font-family: Caviar;
 }
 
-h2, .subhead1 {
+h2 {
     font-size: 1.3em;
     margin-left: 5%;
-    margin-top: 2%;
+    margin-top: 5%;
     font-weight: normal;
 }
 
@@ -92,30 +92,36 @@ p {
     font-style: italic;
 }
 
+
 /*ME SECTION*/
 #me {
     margin-top: 5%;
+    text-align: center;
+}
+
+#me h1 {
+    text-align: left;
 }
 
 #me img {
-    width: 30%;
-    max-width: 250px;
-    float: left;
-    margin: 2% 0 10% 5%;
+    width: 137px;
+    margin: 5% 0;
 }
 
 #me p {
-    width: 40%;
-    padding: 5% 0 0;
-    margin-left: 5%;
-    float: left;
+    padding: 2% 0 0;
+    margin: auto;
+    text-align: left;
 }
 
+
 /*EXPERIENCE SECTION*/
+#experience p {
+    margin-left: 10%;
+}
 
 
 /*SKILLS SECTION*/
-
 #btns {
     width: 100%;
     text-align: center;
@@ -126,6 +132,7 @@ p {
     background-color: #CCC;
     text-decoration: none;
     font-size: medium;
+    margin-top: 5%;
 }
 
 .btn:focus {
@@ -147,7 +154,7 @@ p {
     margin-top: 20px;
 }
 
-span {
+#skills_tags span {
     padding: 10px;
     margin-top: 5px;
     -webkit-border-radius: 10px;
@@ -171,8 +178,8 @@ span {
     background-color: #57d1a3;
 }
 
-/*FOOTER*/
 
+/*FOOTER*/
 footer {
     background-color: #3d7f89;
     color: #fff;
@@ -184,4 +191,82 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+
+/*~~~~~~NEW SECTION~~~~~~~*/
+@media screen and (min-width: 700px) {
+
+    #topbutton {
+        display: block;
+        position: fixed;
+        top: 95%;
+        left: 95%;
+    }
+
+    /*MAIN SECTION*/
+    h2 {
+        margin-top: 2%;
+}
+
+    /*ME SECTION*/
+    #me img {
+        width: 25%;
+        max-width: 250px;
+    }
+}
+
+
+/*~~~~~~NEW SECTION~~~~~~~*/
+@media screen and (min-width: 856px) {
+/*MAIN SECTIONS*/
+    main {
+        width: 100%;
+        margin: auto;
+    }
+
+    #me, #experience, #skills, #education, #testimonials {
+        width: 80%;
+    }
+
+    /*ME SECTION*/
+    #me img {
+        float: left;
+        margin: 2% 0 10% 5%;
+    }
+
+    #me p {
+        width: 60%;
+        padding-top: 5%;
+        float: left;
+        margin-left: 5%;
+    }
+
+}
+
+/*~~~~~~NEW SECTION~~~~~~~*/
+@media screen and (min-width: 1140px) {
+    /*MAIN SECTIONS*/
+    #me, #experience, #skills, #education, #testimonials {
+        width: 60%;
+    }
+
+    /*ME SECTION*/
+    #me img {
+        width: 30%;
+        max-width: 250px;
+    }
+}
+
+/*~~~~~~NEW SECTION~~~~~~~*/
+@media screen and (min-width: 2220px) {
+
+    /*MAIN SECTIONS*/
+    main {
+        width: 1190px;
+    }
+
+    #me, #experience, #skills, #education, #testimonials {
+        width: 100%;
+    }
 }
